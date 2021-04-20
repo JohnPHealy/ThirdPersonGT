@@ -12,6 +12,7 @@
           <e p="ThirdPersonMovement.cs" t="Include" />
         </e>
         <e p="TestExecution.cs" t="Include" />
+        <e p="TimerScript.cs" t="Include" />
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
             <e p="Editor" t="Include">

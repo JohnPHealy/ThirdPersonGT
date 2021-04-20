@@ -42,5 +42,12 @@ public class ThirdPersonMovement : MonoBehaviour
     {
         var moveInput = context.ReadValue<Vector2>();
         movement = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
+        StartCoroutine("SetTimer");
+    }
+
+    IEnumerator SetTimer()
+    {
+        yield return new WaitForSeconds(1);
+        print("I moved 1 second ago and can do something now");
     }
 }
